@@ -2,8 +2,8 @@
 
 # site
 # default "AcyOrt", "A Node.js blog tool powered by GitHub."
-title: zWing-blog
-description: A Node.js blog tool powered by GitHub.
+title: zWing
+description: Just a blog.
 
 # rss
 # set false if not need rss output
@@ -130,4 +130,4 @@ dev:
 
 # disqus:
 # keywords:
-# favicon:
+favicon: favicon.ico
