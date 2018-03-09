@@ -66,6 +66,15 @@ authors:
 # default is local system timezone
 timezone: Asia/Shanghai
 
+plugins:
+  - acyort-rss
+  - acyort-archives
+  - acyort-paginator
+
+rss: true
+
+archives:
+  per_page: 5
 # language
 # requires theme support
 language:

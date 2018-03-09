@@ -14,9 +14,10 @@ jobs:
 
     steps:
         - checkout
-        - run: npm i acyort@1.6 -g
+        - run: npm i acyort -g
         - run: acyort init 
         - run: cp config.bak.yml config.yml 
+        - run: npm i
         - run: git clone https://github.com/acyortjs/theme-donob.git themes/donob # 这个是博客主题，如果使用默认主题是不需要这段的
         - run: acyort build  
         - run: git checkout .  
