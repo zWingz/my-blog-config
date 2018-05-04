@@ -1,0 +1,22 @@
+<!doctype html>
+<html>
+
+<head>
+  {% include 'partials/head.html' %}
+  <title>{% block title %}{% endblock %}</title>
+</head>
+
+<body>
+<canvas id='ribbon'></canvas>
+<div class="main">
+{% include 'partials/header.html' %}
+{% block content %}{% endblock %}
+
+</div>
+
+{% include 'partials/footer.html' %}
+
+{% block script %}{% endblock %}
+<script src="{{ _url('script/ribbon.js') }}"></script>
+</body>
+</html>
