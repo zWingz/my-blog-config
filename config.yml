@@ -59,7 +59,7 @@ authors:
   - zWingz
 #  - author0
 #  - author1
-cache: true
+# cache: true
 # timezone
 # the timezone of your website
 # example: America/New_York, Japan, or UTC
