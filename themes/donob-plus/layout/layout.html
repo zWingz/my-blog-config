@@ -4,6 +4,7 @@
 <head>
   {% include 'partials/head.html' %}
   <title>{% block title %}{% endblock %}</title>
+  {% block head %}{% endblock head%}
 </head>
 
 <body>
@@ -17,6 +18,6 @@
 {% include 'partials/footer.html' %}
 
 {% block script %}{% endblock %}
-<script src="{{ _url('script/ribbon.js') }}"></script>
+<script defer src="{{ _url('script/ribbon.js') }}"></script>
 </body>
 </html>
