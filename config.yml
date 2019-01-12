@@ -28,6 +28,9 @@ menu:
 
 repository: zWingz/my-blog-config
 
+pageSize:
+  posts: 5
+
 public: public
 
 timezone: Asia/Shanghai
