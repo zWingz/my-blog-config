@@ -19,7 +19,7 @@ url: http://zWingz.github.io
 
 # theme
 # default "ccc45"
-template: ../node_modules/acyort-templates-donob-plus/templates
+template: acyort-templates-donob-plus
 
 # menu
 menu:

@@ -21,10 +21,10 @@
   },
   "homepage": "https://github.com/zWingz/my-blog-config#readme",
   "dependencies": {
-    "acyort": "3.0.10",
-    "gh-pages": "^2.0.1",
-    "acyort-donob-renderer": "^1.0.1-alpha.1",
-    "acyort-plugin-fetch-issues": "^1.0.1-alpha.0",
-    "acyort-templates-donob-plus": "^1.0.1-alpha.0"
+    "acyort": "^3.0.11",
+    "acyort-donob-renderer": "^1.0.1",
+    "acyort-plugin-fetch-issues": "^1.0.1",
+    "acyort-templates-donob-plus": "^1.0.0",
+    "gh-pages": "^2.0.1"
   }
 }

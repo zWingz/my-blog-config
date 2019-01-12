@@ -81,10 +81,10 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-acyort-donob-renderer@^1.0.1-alpha.1:
-  version "1.0.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.1-alpha.1.tgz#8b0c6c45c977c5f189b2c25f877f4cb3f4d5ebe8"
-  integrity sha512-0rKt2KHF0NUAkMbR7Atgy1Fp2k6ir/dorJzUtTgtzy7Lx08pChTTRzkufr4RrJmcb7pL6DRD0HqK1vxgXQZ56A==
+acyort-donob-renderer@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.1.tgz#c66f97ccee40e6caa5e26a5a3b20e2349dd8902e"
+  integrity sha512-C9ZnaxWngVEjfQrEkpKUewP9wYA/KpATa8HvrSTUUzWL90n7VnBGaXbgj8Q2M24ZBJl4EpkbRc6xYu0wzLsf4Q==
   dependencies:
     "@acyort/markdown" "^1.0.1"
     autoprefixer "^9.4.4"
@@ -98,35 +98,25 @@ acyort-donob-renderer@^1.0.1-alpha.1:
     log-symbols "^2.2.0"
     ora "^3.0.0"
 
-acyort-plugin-fetch-issues@^1.0.1-alpha.0:
-  version "1.0.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.0.1-alpha.0.tgz#5b2cbc6716b0e8d979a48dfa2a2252dacd466814"
-  integrity sha512-Q3ukurOADhLHgKxwE2I7InSO9HvwnXyE/DY5wZbbzjbuxf/QRbRsdoxRTXxrKPlAPK1YfyGxvQdr5xuFO7dT2A==
+acyort-plugin-fetch-issues@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.0.1.tgz#d7917e7c0c354d95a5a45052dccb62cb979b6fa0"
+  integrity sha512-S36adfNQd18CWYP64B6sjwYHRt9Mx5nJ9goQbyz3aeu+OYpnU4J6FIi1X4zKIrRJHY/d4EnJNCybY83sfEQ4mA==
   dependencies:
     "@octokit/rest" "^16.5.0"
     fs-extra "^7.0.1"
     log-symbols "^2.2.0"
     ora "^3.0.0"
 
-acyort-plugin-ghpages@^1.0.1-alpha.1:
-  version "1.0.1-alpha.1"
-  resolved "https://registry.yarnpkg.com/acyort-plugin-ghpages/-/acyort-plugin-ghpages-1.0.1-alpha.1.tgz#bf78e0696592b1edb94b7db2972c55567ad8f68c"
-  integrity sha512-bg+FXYvx27VQGXj/3X78t3pXHauTckQc4YDIqvdH7u6y3WH4Mz6DMbNswgZvdu9GCPSHdV2SsLRJRVDXmSMo8g==
-  dependencies:
-    acyort "^3.0.10"
-    dayjs "^1.7.8"
-    gh-pages "^2.0.1"
-    ora "^3.0.0"
+acyort-templates-donob-plus@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.0.0.tgz#4c22f974b8aa7baad6a96b7cff2850fd6d29bfeb"
+  integrity sha512-3/wE1JMGQoKW7+36xN8Gp+x1MZs/w88xsbSo71Jj4qAVo/nMF0vqPd0BwZ2NWE2nnaNEKcQJSP0aFzCNjvKEAw==
 
-acyort-templates-donob-plus@^1.0.1-alpha.0:
-  version "1.0.1-alpha.0"
-  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.0.1-alpha.0.tgz#e92e62430ea213caf8cf409444eb2943bd7540a6"
-  integrity sha512-Hqptgzdf/2ht7IkUW1BVi+fFzhfzVVZrpIHK0Fk5zTIQrFNUyQlqRoCC8JmUHJcYlg0YzYztPPlpUOGk72M6Qw==
-
-acyort@3.0.10, acyort@^3.0.10:
-  version "3.0.10"
-  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.0.10.tgz#2331453297d7338a9f4cd0eae4e69cb0c90f330f"
-  integrity sha512-wYNsdugC8R1iCfnDNfK1HLYwaPWESKTRTGzxsaXieu2OAWDaWGMZtiVWRRibg50pt8KYLX+mOBJe9YPxttqXwQ==
+acyort@^3.0.11:
+  version "3.0.11"
+  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.0.11.tgz#6eb6a9bcab3146a5707eed6f8ef7b1f2f43f2d34"
+  integrity sha512-sDxN/kkYC+XS0vLJtRFFoIsHa33NQqczq5nHMxuwMWLDb3Ili9sahcWomNU0sUaYUB/pYxJyhQEa1E+37VzmBg==
   dependencies:
     "@acyort/i18n" "^0.1.2"
     "@acyort/logger" "^1.1.1"
@@ -963,11 +953,6 @@ d@1:
   integrity sha1-dUu1v+VUUdpppYuU1F9MWwRi1Y8=
   dependencies:
     es5-ext "^0.10.9"
-
-dayjs@^1.7.8:
-  version "1.7.8"
-  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.7.8.tgz#05d288f8d4b2140110cc1519cfe317d6f1f11a3c"
-  integrity sha512-Gp4Y5KWeSri0QOWGzHQz7VrKDkfEpS92dCLK7P8hYowRFbaym1vj3d6CoHio3apSS4KSi/qb5Edemv26IN5Hfg==
 
 debug@^2.1.2, debug@^2.2.0, debug@^2.3.3:
   version "2.6.9"
