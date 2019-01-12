@@ -5,29 +5,30 @@ jobs:
     docker:
       # specify the version you desire here
       - image: node:latest
-      
+
     working_directory: ~/acyort
-    
+
     branches:
       only:
         - master # 这个是配置文件的分支名，注意不要写错分支
 
     steps:
-        - checkout
-        - run: npm i acyort@2.3.0 -g
-        - run: acyort init 
-        - run: cp config.bak.yml config.yml 
-        - run: npm i
-        - run: rm -rf themes/ccc45
-        # - run: git clone https://github.com/acyortjs/theme-donob.git themes/donob # 这个是博客主题，如果使用默认主题是不需要这段的
-        - run: acyort build  
-        - run: git checkout .  
-        - run: git reset --hard origin/master # 同上
-        - run: cp -R public/* . # 不明白就不要修改
-        - run: rm config.bak.yml 
-        - run: rm -R scripts themes public # 不明白就不要修改
-        - run: git add .
-        - run: git config user.name "zWingz" # 你的 GitHub 用户名，一定要改，不要填我的
-        - run: git config user.email "371657110@qq.com" # 你的 GitHub 邮箱，一定要改，不要填我的
-        - run: git commit -m "Updated by circleci - `date`" # 你可以修改 commit 的文字，后面的 date 代表时间
-        - run: git push -f https://${gh_token}@github.com/zWingz/zWingz.github.io.git master # 修改成你的项目路径，格式为 用户名/项目名。gh-pages 为存放博客静态文件分支，不要写错了。${gh_token} 不明白也不要动
+      - checkout
+      - restore_cache:
+          keys:
+            - yarn-packages-{{ checksum "yarn.lock" }}
+      - run: yarn install
+      - save_cache:
+          name: Save Yarn Package Cache
+          key: yarn-packages-{{ checksum "yarn.lock" }}
+          paths:
+            - ~/.cache/yarn
+      - run: yarn deploy
+      # - run: git reset --hard origin/master # 同上
+      # - run: git add .
+      # - run: git config user.name "zWingz"
+      # - run: git config user.email "371657110@qq.com"
+      # - run: git commit -m "Updated by circleci - `date`"
+      - run: cp CNAME ./public/CNAME
+      - run: cp README.md ./public/README.md
+      - run: npx gh-pages -d public -r https://${gh_token}@github.com/zWingz/zWingz.github.io.git -b master -m Updated by circleci - `date` # ${gh_token}
