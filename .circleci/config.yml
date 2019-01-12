@@ -31,4 +31,4 @@ jobs:
       # - run: git commit -m "Updated by circleci - `date`"
       - run: cp CNAME ./public/CNAME
       - run: cp README.md ./public/README.md
-      - run: npx gh-pages -d public -r https://${gh_token}@github.com/zWingz/zWingz.github.io.git -b master -m Updated by circleci - `date` # ${gh_token}
+      - run: npx gh-pages -d public -r https://${gh_token}@github.com/zWingz/zWingz.github.io.git -b master -m "Updated by circleci - `date`" # ${gh_token}
