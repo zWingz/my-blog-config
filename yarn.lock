@@ -82,9 +82,9 @@ abbrev@1:
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
 acyort-donob-renderer@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.1.tgz#c66f97ccee40e6caa5e26a5a3b20e2349dd8902e"
-  integrity sha512-C9ZnaxWngVEjfQrEkpKUewP9wYA/KpATa8HvrSTUUzWL90n7VnBGaXbgj8Q2M24ZBJl4EpkbRc6xYu0wzLsf4Q==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.2.tgz#89b304e4f0ee40adbeb670762dd958965689870f"
+  integrity sha512-hYYrez8IT9MYM5vrTMhwRPPQAIuGgFyUfrUuEAV6YF5mFA5fqgC5a4ZIVGJW7lW5AXRV0unW0B9++9e970aoZQ==
   dependencies:
     "@acyort/markdown" "^1.0.1"
     autoprefixer "^9.4.4"
@@ -99,9 +99,9 @@ acyort-donob-renderer@^1.0.1:
     ora "^3.0.0"
 
 acyort-plugin-fetch-issues@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.0.1.tgz#d7917e7c0c354d95a5a45052dccb62cb979b6fa0"
-  integrity sha512-S36adfNQd18CWYP64B6sjwYHRt9Mx5nJ9goQbyz3aeu+OYpnU4J6FIi1X4zKIrRJHY/d4EnJNCybY83sfEQ4mA==
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.0.2.tgz#b839e0670dc59598ff214b40b2b1c38a44b278a0"
+  integrity sha512-mgg3/g5Mz/9d1yB11T6mQ8Vh7w7TVJ/Pbcpw3KTc+YypDyhnhBF1IvgqVhGQW/7jtLI2NiMaj3ZHuIQZ8SZWTg==
   dependencies:
     "@octokit/rest" "^16.5.0"
     fs-extra "^7.0.1"
