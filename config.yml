@@ -39,3 +39,7 @@ plugins:
   - acyort-donob-renderer
 
 favicon: favicon.ico
+
+gitalk:
+  clientID: '0438ed96c0cb944693a7'
+  clientSecret: '23e7aa3152f5d03d8f20029540741d6f886c9f5b'

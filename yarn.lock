@@ -82,9 +82,9 @@ abbrev@1:
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
 acyort-donob-renderer@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.2.tgz#89b304e4f0ee40adbeb670762dd958965689870f"
-  integrity sha512-hYYrez8IT9MYM5vrTMhwRPPQAIuGgFyUfrUuEAV6YF5mFA5fqgC5a4ZIVGJW7lW5AXRV0unW0B9++9e970aoZQ==
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.3.tgz#ad6cec921a96da474224f406ce32a392349517c5"
+  integrity sha512-lB9NhsecHmdFt2vZxmGMxqup8dOoF45O6Xje7EEnP+57mSEGF+iLUxvjDP6zPtDWFlKE5BxrY6JojWi01qjEZw==
   dependencies:
     "@acyort/markdown" "^1.0.1"
     autoprefixer "^9.4.4"
