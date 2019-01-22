@@ -81,10 +81,10 @@ abbrev@1:
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
   integrity sha512-nne9/IiQ/hzIhY6pdDnbBtz7DjPTKrY00P/zvPSm5pOFkl6xuGrGnXn/VtTNNfNtAfZ9/1RtehkszU9qcTii0Q==
 
-acyort-donob-renderer@^1.0.1:
-  version "1.0.3"
-  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.0.3.tgz#ad6cec921a96da474224f406ce32a392349517c5"
-  integrity sha512-lB9NhsecHmdFt2vZxmGMxqup8dOoF45O6Xje7EEnP+57mSEGF+iLUxvjDP6zPtDWFlKE5BxrY6JojWi01qjEZw==
+acyort-donob-renderer@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/acyort-donob-renderer/-/acyort-donob-renderer-1.2.0.tgz#7cd50a403cf02238c9732ee6a4251b8cff5198cc"
+  integrity sha512-7ZtxBrlw+tZ5Z0xYmSSKCGi13Ara4QpJOwoeALPgHF+OaXDAIrdwwdbCOTcy6OZq4ioe9Q3dX3ZSCHsSJ4sJpA==
   dependencies:
     "@acyort/markdown" "^1.0.1"
     autoprefixer "^9.4.4"
@@ -98,25 +98,33 @@ acyort-donob-renderer@^1.0.1:
     log-symbols "^2.2.0"
     ora "^3.0.0"
 
-acyort-plugin-fetch-issues@^1.0.1:
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.0.2.tgz#b839e0670dc59598ff214b40b2b1c38a44b278a0"
-  integrity sha512-mgg3/g5Mz/9d1yB11T6mQ8Vh7w7TVJ/Pbcpw3KTc+YypDyhnhBF1IvgqVhGQW/7jtLI2NiMaj3ZHuIQZ8SZWTg==
+acyort-plugin-fetch-issues@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/acyort-plugin-fetch-issues/-/acyort-plugin-fetch-issues-1.1.0.tgz#5999507c3ce95906facf4bdbdaffdc526017e306"
+  integrity sha512-jttfNObeIxK+c4RiPWIzNX3RsKMHATCU7ilEbFwiKwU7V8ehZs1q7e1rVH5AoNrTpkAbvuyzzej2BbvN3eSH7w==
   dependencies:
     "@octokit/rest" "^16.5.0"
     fs-extra "^7.0.1"
     log-symbols "^2.2.0"
     ora "^3.0.0"
 
-acyort-templates-donob-plus@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.0.0.tgz#4c22f974b8aa7baad6a96b7cff2850fd6d29bfeb"
-  integrity sha512-3/wE1JMGQoKW7+36xN8Gp+x1MZs/w88xsbSo71Jj4qAVo/nMF0vqPd0BwZ2NWE2nnaNEKcQJSP0aFzCNjvKEAw==
+acyort-plugin-rss@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/acyort-plugin-rss/-/acyort-plugin-rss-1.2.0.tgz#46d7c2a8756ea7c0912ee86e00c065872f74f068"
+  integrity sha512-EmZDWZ6Wxs0GFZjRolM+i+AETeQkRCUZ4CPhhYROVEaWIivwKMfO8kgXRBhGqZN41kj4rCaX6OT4neCuYQrVWg==
+  dependencies:
+    fs-extra "^7.0.1"
+    rss "^1.2.2"
 
-acyort@^3.0.11:
-  version "3.0.11"
-  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.0.11.tgz#6eb6a9bcab3146a5707eed6f8ef7b1f2f43f2d34"
-  integrity sha512-sDxN/kkYC+XS0vLJtRFFoIsHa33NQqczq5nHMxuwMWLDb3Ili9sahcWomNU0sUaYUB/pYxJyhQEa1E+37VzmBg==
+acyort-templates-donob-plus@^1.2.0:
+  version "1.2.0"
+  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.2.0.tgz#b78f62e23c00ce7682b2715fc9d55cdd64a0b12e"
+  integrity sha512-72P0moLophcMg71gCg9iow7yS5AcderzCJRyEytlT71D9O2rMTEcjwvzp4cgb/X7WGON1NNBG9ICgB2brrn0uQ==
+
+acyort@^3.0.13:
+  version "3.0.13"
+  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.0.13.tgz#758fc70efc8a387ea2d3f66095ab080c264d1153"
+  integrity sha512-ZAIYwrSkZ+jlLMoURp+O3EmT39PnS7EWZO3FwGauuPp/S0/H9Pr+5ROzfrR/FzB9eok9+l6dV0vmCPJiut/0dA==
   dependencies:
     "@acyort/i18n" "^0.1.2"
     "@acyort/logger" "^1.1.1"
@@ -2318,6 +2326,18 @@ micromatch@^3.0.4, micromatch@^3.1.10, micromatch@^3.1.4:
     snapdragon "^0.8.1"
     to-regex "^3.0.2"
 
+mime-db@~1.25.0:
+  version "1.25.0"
+  resolved "https://registry.yarnpkg.com/mime-db/-/mime-db-1.25.0.tgz#c18dbd7c73a5dbf6f44a024dc0d165a1e7b1c392"
+  integrity sha1-wY29fHOl2/b0SgJNwNFloeexw5I=
+
+mime-types@2.1.13:
+  version "2.1.13"
+  resolved "https://registry.yarnpkg.com/mime-types/-/mime-types-2.1.13.tgz#e07aaa9c6c6b9a7ca3012c69003ad25a39e92a88"
+  integrity sha1-4HqqnGxrmnyjASxpADrSWjnpKog=
+  dependencies:
+    mime-db "~1.25.0"
+
 mimic-fn@^1.0.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/mimic-fn/-/mimic-fn-1.2.0.tgz#820c86a39334640e99516928bd03fca88057d022"
@@ -3406,6 +3426,14 @@ rimraf@^2.6.1, rimraf@^2.6.2:
   dependencies:
     glob "^7.1.3"
 
+rss@^1.2.2:
+  version "1.2.2"
+  resolved "https://registry.yarnpkg.com/rss/-/rss-1.2.2.tgz#50a1698876138133a74f9a05d2bdc8db8d27a921"
+  integrity sha1-UKFpiHYTgTOnT5oF0r3I240nqSE=
+  dependencies:
+    mime-types "2.1.13"
+    xml "1.0.1"
+
 safe-buffer@^5.1.0, safe-buffer@^5.1.2, safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.2"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.2.tgz#991ec69d296e0313747d59bdfd2b745c35f8828d"
@@ -4129,6 +4157,11 @@ wrappy@1:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+xml@1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/xml/-/xml-1.0.1.tgz#78ba72020029c5bc87b8a81a3cfcd74b4a2fc1e5"
+  integrity sha1-eLpyAgApxbyHuKgaPPzXS0ovweU=
 
 xtend@~4.0.0, xtend@~4.0.1:
   version "4.0.1"

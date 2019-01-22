@@ -10,7 +10,7 @@ gitToken: b#75128406f54c3653958e2d66befe6c5cf02ce7e
 # rss
 # set false if not need rss output
 # default "rss.xml"
-rss:
+rss: true
 
 # site url. you can set as 'http://yoursite.com/child' if necessary
 # please add 'http://' or 'https://'
@@ -37,7 +37,8 @@ timezone: Asia/Shanghai
 plugins:
   - acyort-plugin-fetch-issues
   - acyort-donob-renderer
-
+  - acyort-plugin-rss
+  
 favicon: favicon.ico
 
 gitalk:
