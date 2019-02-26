@@ -172,10 +172,10 @@ acyort-util-md@^1.5.0:
     remark-slug "^5.1.1"
     unist-util-visit "^1.4.0"
 
-acyort@^3.0.13:
-  version "3.0.13"
-  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.0.13.tgz#758fc70efc8a387ea2d3f66095ab080c264d1153"
-  integrity sha512-ZAIYwrSkZ+jlLMoURp+O3EmT39PnS7EWZO3FwGauuPp/S0/H9Pr+5ROzfrR/FzB9eok9+l6dV0vmCPJiut/0dA==
+acyort@^3.1.1:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/acyort/-/acyort-3.1.1.tgz#83d000e4c93f1b901e43dd3458d9a9b51dd4c40b"
+  integrity sha512-T1omXw96CCQa7EDh/2/ckFgE9r5nZvTfNINA1B2hzzp/qQDcRgXviU+JvjCw8vFnddCK2oC3V+hSV3KnxAxlGg==
   dependencies:
     "@acyort/i18n" "^0.1.2"
     "@acyort/logger" "^1.1.1"
