@@ -5,8 +5,6 @@
 title: zWing
 description: Just a blog.
 
-gitToken: b#75128406f54c3653958e2d66befe6c5cf02ce7e
-
 # rss
 # set false if not need rss output
 # default "rss.xml"
