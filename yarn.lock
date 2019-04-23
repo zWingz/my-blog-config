@@ -154,10 +154,10 @@ acyort-plugin-rss@^1.6.4:
     fs-extra "^7.0.1"
     rss "^1.2.2"
 
-acyort-templates-donob-plus@^1.6.4:
-  version "1.6.4"
-  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.6.4.tgz#6608bddf498ad2c22381a7d36223b124faf78c9f"
-  integrity sha512-ZtsoUvGpltt7/6VdHeCV1ZFy4KP6uwIT80CeCt2WLnRGOrLWHYGEjrxEa6g+SnMIEC3v92m/495RoseibyBabA==
+acyort-templates-donob-plus@^1.6.5:
+  version "1.6.5"
+  resolved "https://registry.yarnpkg.com/acyort-templates-donob-plus/-/acyort-templates-donob-plus-1.6.5.tgz#f2b3e3712f46b945bad3a0d07487ee98cc71114c"
+  integrity sha512-PFdDv2e5tGop1XrqNi8ADVJQBZgdUSLgMaRGg2/NBwX/HzM89Pw1tZm7ghXAjSTuo+HUWgJ/H4wCN5FHRQiVcQ==
 
 acyort-util-md@^1.6.4:
   version "1.6.4"
