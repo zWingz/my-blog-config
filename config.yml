@@ -46,3 +46,4 @@ gitalk:
   clientSecret: '23e7aa3152f5d03d8f20029540741d6f886c9f5b'
 
 baidu: 6650629ba7ddbfe98e2f63700c2e6923
+issuesFilter: '\[draft\]'
