@@ -31,5 +31,6 @@ jobs:
       # - run: git commit -m "Updated by circleci - `date`"
       - run: cp google1c8aa0f9ba6c9db0.html ./public/google1c8aa0f9ba6c9db0.html
       - run: cp CNAME ./public/CNAME
+      - run: cp tencent2266102492351778998.txt ./public/tencent2266102492351778998.txt
       - run: cp README.md ./public/README.md
       - run: npx gh-pages -d public -r https://${gh_token}@github.com/zWingz/zWingz.github.io.git -b master -m "Updated by circleci - `date`" # ${gh_token}
